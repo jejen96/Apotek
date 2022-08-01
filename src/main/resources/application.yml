@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: sa
+    password: sa
+    url: jdbc:postgresql://localhost:5432/apotek
+    test-on-borrow: true
+    validation-query: select 1
+server:
+  port: 8080
+
+spring.mvc.view.prefix: /WEB-INF/view/
+spring.mvc.view.suffix: .jsp
